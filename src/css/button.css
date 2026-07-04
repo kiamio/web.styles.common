@@ -24,14 +24,14 @@
         background-color var(--kio-transition-fast),
         transform var(--kio-transition-fast);
 }
-
 .kio-btn:hover {
     background: var(--kio-primary-hover);
-    transform: translateY(-2px);
+    filter: brightness(1.2);
 }
 
 .kio-btn:active {
-    transform: translateY(0);
+    transform: translateY(1px) scale(0.98);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
 }
 
 .kio-btn:disabled {
