@@ -1,4 +1,4 @@
-# web.styles.common
+# kiam.io.ui
 
 `web.styles.common` é um repositório que reúne componentes e estilos CSS reutilizáveis para aplicações web. Seu objetivo é centralizar elementos de interface utilizados em diferentes projetos, evitando duplicação de código e mantendo consistência visual.
 
