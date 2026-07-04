@@ -1,4 +1,4 @@
-.textarea {
+.kio-textarea {
     display: block;
     width: 100%;
     min-width: 0;
@@ -23,11 +23,11 @@
         border-color .2s ease,
 }
 
-.textarea:focus {
+.kio-textarea:focus {
     outline: none;
     border-color: #2563EB;
 }
 
-.textarea::placeholder {
+.kio-textarea::placeholder {
     color: #9CA3AF;
 }

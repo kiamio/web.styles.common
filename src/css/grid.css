@@ -1,0 +1,6 @@
+.kio-grid {
+    display: grid;
+    gap: var(--kio-space-lg);
+
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}

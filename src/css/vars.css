@@ -1,5 +1,6 @@
 :root {
     /* Escala base */
+    --kio-background: #181818;
     --kio-size: 1rem;
     --kio-radius: .4375rem; /* 7px */
     --kio-transition: .2s ease;

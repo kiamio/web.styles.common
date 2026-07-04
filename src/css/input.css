@@ -1,4 +1,4 @@
-.input {
+.kio-input {
     display: block;
     width: 100%;
     min-width: 0;
@@ -20,11 +20,11 @@
         border-color .2s ease,
 }
 
-.input:focus {
+.kio-input:focus {
     outline: none;
     border-color: #2563EB;
 }
 
-.input::placeholder {
+.kio-input::placeholder {
     color: #9CA3AF;
 }

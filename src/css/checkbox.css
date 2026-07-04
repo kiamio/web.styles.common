@@ -1,0 +1,9 @@
+.kio-checkbox {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--kio-space-sm);
+    cursor: pointer;
+    font-family: var(--kio-font-family);
+    font-size: var(--kio-font-size);
+    color: var(--kio-text);
+}
