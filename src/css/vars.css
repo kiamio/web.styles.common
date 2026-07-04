@@ -1,0 +1,19 @@
+:root {
+  --kio-primary: #2563EB;
+  --kio-primary-hover: #1D4ED8;
+
+  --kio-white: #FFFFFF;
+
+  --kio-border-radius: 7px;
+
+  --kio-font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    "Helvetica Neue",
+    Arial,
+    sans-serif;
+
+  --kio-transition-fast: .2s ease;
+}
