@@ -1,0 +1,47 @@
+.notification {
+  width: 320px;
+  padding: 14px 16px;
+  border-radius: 10px;
+  font-family: Arial, sans-serif;
+  color: #fff;
+  margin: 10px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  position: relative;
+  overflow: hidden;
+  animation: slideIn 0.4s ease-out;
+}
+
+/* Tipos de notificação */
+.success {
+  background: linear-gradient(135deg, #00c853, #64dd17);
+}
+
+.error {
+  background: linear-gradient(135deg, #d50000, #ff1744);
+}
+
+.info {
+  background: linear-gradient(135deg, #2962ff, #00b0ff);
+}
+
+.warning {
+  background: linear-gradient(135deg, #ff6d00, #ffab00);
+}
+
+/* Animação de entrada */
+@keyframes slideIn {
+  from {
+    transform: translateX(30px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* Efeito hover leve */
+.notification:hover {
+  transform: scale(1.02);
+  transition: 0.2s ease;
+}
