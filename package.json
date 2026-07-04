@@ -1,0 +1,24 @@
+{
+  "name": "@kiamio/ui",
+  "version": "1.0.0",
+  "description": "`web.styles.common` é um repositório que reúne componentes e estilos CSS reutilizáveis para aplicações web. Seu objetivo é centralizar elementos de interface utilizados em diferentes projetos, evitando duplicação de código e mantendo consistência visual.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kiamio/web.styles.common.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/kiamio/web.styles.common/issues"
+  },
+  "homepage": "https://github.com/kiamio/web.styles.common#readme"
+}
